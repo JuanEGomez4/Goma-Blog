@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 5px solid black;
+}
+header{
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: whitesmoke;
+    border-bottom: 5px solid white;
+
+     }
+
+     nav{
+        background-color: grey;
+        height: 50px;
+        border-bottom: 5px solid black;
+     }
+     nav ul li{
+        float: left;
+        list-style: none;
+        margin: 10px;
+        line-height: 30px;
+
+     }
+     .clearfix{
+        clear: both;
+     }
+     #content{
+        float: left;
+        width: 69%;
+        min-height: 500px;
+        background-color:black;
+        padding: 20px;
+
+     }
+
+     .article{
+        color: gainsboro;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid wheat;
+     }
+
+     .article{
+        padding-top: 10px;
+        border-top: 1px solid wheat;
+     }
+     .article h2{
+        font-size: 25px;
+     }
+
+     aside{
+        float: left;
+        width: 26%;
+        min-height: 1610px;
+        background-color: whitesmoke;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+     }
+
+     footer{
+        background-color: white;
+        color: black;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+     }
